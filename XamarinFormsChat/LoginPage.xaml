@@ -3,7 +3,7 @@
 	<ContentPage.Content>
 		<ScrollView>
 			<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-<!--				<BoxView HeightRequest="800" WidthRequest="400" BackgroundColor="Purple" />-->
+				<BoxView HeightRequest="250" WidthRequest="50" BackgroundColor="Purple" />
 				<Label Text="Username" />
 				<Entry Placeholder="Username"/>
 				<Label Text="Password"/>
