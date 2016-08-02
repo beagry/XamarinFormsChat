@@ -8,7 +8,7 @@ namespace XamarinFormsChat
 		{
 			InitializeComponent();
 
-			MainPage = new XamarinFormsChatPage();
+			MainPage = new LoginPage();
 		}
 
 		protected override void OnStart()
