@@ -11,6 +11,12 @@ namespace XamarinFormsChat
 		{
 			InitializeComponent();
 		}
+
+		async void Handle_Clicked(object sender, System.EventArgs e)
+		{
+			var chatPage = new ChatPage();
+			await Navigation.PushAsync(chatPage);
+		}
 	}
 }
 

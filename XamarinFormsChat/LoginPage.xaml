@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsChat.LoginPage">
 	<ContentPage.Content>
-		<ScrollView VerticalOptions="StartAndExpand">
-			<StackLayout WidthRequest="500" HorizontalOptions="Center" VerticalOptions="StartAndExpand">
-<!--				<BoxView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Purple" />-->
+		<ScrollView>
+			<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+<!--				<BoxView HeightRequest="800" WidthRequest="400" BackgroundColor="Purple" />-->
 				<Label Text="Username" />
 				<Entry Placeholder="Username"/>
 				<Label Text="Password"/>
 				<Entry IsPassword="false"/>
-				<Button BorderRadius="5" BackgroundColor="Blue"  Text="Press me" TextColor="#fff"/>
+				<Button BorderRadius="5" BackgroundColor="Blue"  Text="Press me" TextColor="#fff" Clicked="Handle_Clicked"/>
 			</StackLayout>
 		</ScrollView>
 	</ContentPage.Content>
